@@ -1,0 +1,55 @@
+body {
+	background: #FF512F; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	color: #ffffff;
+	font-size: 65px;
+	padding-bottom: 25px;
+}
+
+h2 {
+	font-family: 'Covered By Your Grace', cursive;
+	color: #ffffff;
+	display: inline;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Permanent Marker', cursive;
+	color: #ffffff;
+	font-size: 45px;
+}
+
+
+#timestart {
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    width: 140px;
+    margin: auto;
+}
+#start {
+	margin-bottom: 15px;
+}
+
+.btn-primary {
+	margin: 0px 10px 20px 10px;
+
+
+}
+
+#timeBar {
+	border-style: solid;
+	border-color: white;
+    border-radius: 20px;
+    width: 300px;
+    margin: 15px auto;
+}
+
+
+
+

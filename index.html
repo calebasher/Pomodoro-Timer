@@ -4,12 +4,39 @@
 	<title>Pomodoro Timer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+	<div style="display:none;" id="all" class="container text-center">
+		<h1>Pomodoro Timer</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<div id="minus" type="button" class="btn btn-primary">-</div>
+				<h2>Session Length</h2>
+				<div id="plus" type="button" class="btn btn-primary">+</div>
+			</div>
+			<div class="col-md-6">
+				<div id="breakMinus" type="button" class="btn btn-primary">-</div>
+				<h2>Break Length</h2>
+				<div id="breakPlus" type="button" class="btn btn-primary">+</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="sessionInterval" class="col-md-6"><h2>1</h2></div>			
+			<div id="breakInterval" class="col-md-6"><h2>1</h2></div>
+		</div>
+		<h2 id="currentMode">Session</h2>
+		<div id="timestart">
+			<div id="countDown"><h3>1:00</h3></div>
+			<div id="start" type="button" class="btn btn-primary">Start</div>	
+		</div>
+		<div id="timeBar" class="row"></div>
+	</div>
 	<script language="JavaScript" type="text/javascript"src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script language="JavaScript" type="text/javascript"src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script language="JavaScript" type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src='https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'></script>
 	<script language="JavaScript" type="text/javascript" src="script.js"></script>
 </body>
 </html>
